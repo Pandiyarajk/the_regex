@@ -104,6 +104,26 @@ regex-mastery/
 │   ├── advanced-solutions.md
 │   └── project-solutions.md
 │
+├── python/
+│   ├── README.md
+│   ├── 01_basics/
+│   │   ├── simple_patterns.py
+│   │   ├── anchors_literals.py
+│   │   └── basic_exercises.py
+│   ├── 02_intermediate/
+│   │   ├── character_classes.py
+│   │   ├── grouping_capturing.py
+│   │   ├── lookarounds.py
+│   │   └── intermediate_exercises.py
+│   ├── 03_advanced/
+│   │   ├── backreferences.py
+│   │   ├── greedy_lazy.py
+│   │   └── complex_patterns.py
+│   └── 04_projects/
+│       ├── email_validator.py
+│       ├── log_parser.py
+│       └── html_scraper.py
+│
 └── tools/
     ├── recommended-tools.md
     ├── regex-playgrounds.md
@@ -156,8 +176,25 @@ By the end of this guide, you will be able to:
 - ✅ Choose appropriate regex engines for different tasks
 - ✅ Validate and parse complex data formats
 
+## 🐍 Python Examples
+
+All concepts are demonstrated with working Python code examples in the `python/` folder:
+
+- **01_basics/** - Basic regex patterns and exercises
+- **02_intermediate/** - Character classes, grouping, lookarounds
+- **03_advanced/** - Backreferences, greedy/lazy matching, complex patterns
+- **04_projects/** - Complete project implementations
+
+Run any Python file to see examples in action:
+
+```bash
+python python/01_basics/simple_patterns.py
+python python/04_projects/email_validator.py user@example.com
+```
+
 ## 📖 Additional Resources
 
+- [Python Examples](python/README.md)
 - [Recommended Tools](tools/recommended-tools.md)
 - [Regex Playgrounds](tools/regex-playgrounds.md)
 - [Change Log](CHANGE_LOG.md)
